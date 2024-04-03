@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NT106.O23_LAB2_22521103/1.0.0": {
+        "runtime": {
+          "NT106.O23_LAB2_22521103.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NT106.O23_LAB2_22521103/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
