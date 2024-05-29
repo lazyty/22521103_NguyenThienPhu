@@ -4,12 +4,13 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace NT106.O23_LAB1_22521103
+namespace NT106.O23_LAB4
 {
     public partial class Bai3 : Form
     {
@@ -17,91 +18,167 @@ namespace NT106.O23_LAB1_22521103
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        string url = "";
+        private void Loadbutton_Click(object sender, EventArgs e)
         {
-            int num1;
-            string datanum1 = textBox1.Text;
+            url = addressBar.Text.Trim();
+            if (url == "") return;
+            if (!url.StartsWith("http://") && !url.StartsWith("https://"))
+            {
+                url = "https://" + url;
+            }
+
             try
             {
-                if (datanum1.Length == 0)
-                {
-                    MessageBox.Show("Vui lòng điền số vào ô trống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                num1 = Int32.Parse(textBox1.Text.Trim());
-                if (num1>10 || num1 <0)
-                {
-                    return;
-                }
-                switch (num1)
-                {
-                    case 1:
-                        {
-                            textBox2.Text = "Một";
-                            break;
-                        }
-                    case 2:
-                        {
-                            textBox2.Text = "Hai";
-                            break;
-                        }
-                    case 3:
-                        {
-                            textBox2.Text = "Ba";
-                            break;
-                        }
-                    case 4:
-                        {
-                            textBox2.Text = "Bốn";
-                            break;
-                        }
-                    case 5:
-                        {
-                            textBox2.Text = "Năm";
-                            break;
-                        }
-                    case 6:
-                        {
-                            textBox2.Text = "Sáu";
-                            break;
-                        }
-                    case 7:
-                        {
-                            textBox2.Text = "Bảy";
-                            break;
-                        }
-                    case 8:
-                        {
-                            textBox2.Text = "Tám";
-                            break;
-                        }
-                    case 9:
-                        {
-                            textBox2.Text = "Chín";
-                            break;
-                        }
-                    default:
-                        {
-                            textBox2.Text = "Không";
-                            break;
-                        }
-                }
+                webView.Source = new Uri(url);
             }
-            catch (Exception a)
+            catch
             {
-                MessageBox.Show("Vui lòng nhập số nguyên.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Can't get to website");
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void DownFilebutton_Click(object sender, EventArgs e)
         {
-            textBox1.ResetText();
-            textBox2.ResetText();
+            if (webView.Source == null || string.IsNullOrEmpty(webView.Source.ToString()))
+            {
+                MessageBox.Show("Please load a website first.");
+                return;
+            }
+
+            using (SaveFileDialog saveFileDialog = new SaveFileDialog())
+            {
+                saveFileDialog.Filter = "HTML Files (*.html)|*.html";
+                saveFileDialog.RestoreDirectory = true;
+
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string downloadUrl = webView.Source.ToString();
+                    string downloadPath = saveFileDialog.FileName;
+
+                    try
+                    {
+                        using (WebClient myClient = new WebClient())
+                        {
+                            myClient.DownloadFile(downloadUrl, downloadPath);
+                            MessageBox.Show("File downloaded successfully!");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show($"Error downloading file: {ex.Message}");
+                    }
+                }
+            }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Reloadbutton_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Loadbutton.PerformClick();
+        }
+
+        private void DownResbutton_Click(object sender, EventArgs e)
+        {
+            if (webView.Source == null || string.IsNullOrEmpty(webView.Source.ToString()))
+            {
+                MessageBox.Show("Please load a website first.");
+                return;
+            }
+
+            // Lấy source html 
+            string html = getHTML(webView.Source.ToString());
+            if (html == null) return;
+
+            // Phân tích cú pháp html
+            HtmlAgilityPack.HtmlDocument doc = new HtmlAgilityPack.HtmlDocument();
+            doc.LoadHtml(html);
+
+            // Tìm các thẻ img
+            var imgNodes = doc.DocumentNode.SelectNodes("//img");
+
+            // Kiểm tra có ảnh không
+            if (imgNodes == null || imgNodes.Count == 0)
+            {
+                MessageBox.Show("No images found on the webpage.");
+                return;
+            }
+
+            // Hiển thị hộp thoại chọn thư mục 
+            using (FolderBrowserDialog folderDialog = new FolderBrowserDialog())
+            {
+                if (folderDialog.ShowDialog() == DialogResult.OK)
+                {
+                    string folderPath = folderDialog.SelectedPath;
+
+                    // Thiết lập process bar
+                    progressBar.Visible = true;
+                    progressBar.Maximum = imgNodes.Count;
+                    progressBar.Value = 0;
+
+                    // Tải từng ảnh xuống
+                    foreach (var imgNode in imgNodes)
+                    {
+                        // Lấy Url của ảnh 
+                        string imgUrl = imgNode.GetAttributeValue("src", null);
+                        if (string.IsNullOrEmpty(imgUrl)) continue;
+
+                        if (!imgUrl.StartsWith("http://") && !imgUrl.StartsWith("https://"))
+                        {
+                            Uri baseUri = new Uri(webView.Source.ToString());
+                            imgUrl = new Uri(baseUri, imgUrl).ToString();
+                        }
+
+                        // Tạo đường dẫn file để lưu ảnh
+                        string fileName = Path.GetFileName(new Uri(imgUrl).AbsolutePath);
+                        string filePath = Path.Combine(folderPath, fileName);
+
+                        try
+                        {
+                            // Sử dụng webclient để tải ảnh từ url
+                            using (WebClient client = new WebClient())
+                            {
+                                client.DownloadFile(imgUrl, filePath);
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            MessageBox.Show($"Error downloading image {imgUrl}: {ex.Message}");
+                        }
+                        progressBar.PerformStep();
+                    }
+                    progressBar.Visible = false;
+                    MessageBox.Show("Images downloaded successfully!");
+                }
+            }
+
+        }
+        private string getHTML(string szURL)
+        {
+            try
+            {
+                // Create a request for the URL.
+                WebRequest request = WebRequest.Create(szURL);
+                // Get the response.
+                using (WebResponse response = request.GetResponse())
+                {
+                    // Get the stream containing content returned by the server.
+                    using (Stream dataStream = response.GetResponseStream())
+                    {
+                        // Open the stream using a StreamReader for easy access.
+                        using (StreamReader reader = new StreamReader(dataStream))
+                        {
+                            // Read the content.
+                            string responseFromServer = reader.ReadToEnd();
+                            return responseFromServer;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error fetching HTML: {ex.Message}");
+                return null;
+            }
         }
     }
 }

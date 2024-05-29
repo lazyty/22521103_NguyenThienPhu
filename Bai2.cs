@@ -4,11 +4,12 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NT106.O23_LAB1_22521103
+namespace NT106.O23_LAB4
 {
     public partial class Bai2 : Form
     {
@@ -17,78 +18,115 @@ namespace NT106.O23_LAB1_22521103
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        
+        string url = "";
+
+        private string getHTML(string szURL)
         {
-            int num1, num2, num3;
-            string datanum1 = textBox1.Text;
-            string datanum2 = textBox2.Text;
-            string datanum3 = textBox3.Text;
             try
             {
-                if (datanum1.Length == 0 || datanum2.Length == 0 || datanum3.Length == 0)
+                // Create a request for the URL.
+                WebRequest request = WebRequest.Create(szURL);
+                // Get the response.
+                using (WebResponse response = request.GetResponse())
                 {
-                    MessageBox.Show("Vui lòng điền đủ ba số vào ô trống.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                num1 = Int32.Parse(textBox1.Text.Trim());
-                num2 = Int32.Parse(textBox2.Text.Trim());
-                num3 = Int32.Parse(textBox3.Text.Trim());
-                int max = num1;
-                if (max<=num2)
-                {
-                    max = num2;
-                    if (max<=num3)
+                    // Get the stream containing content returned by the server.
+                    using (Stream dataStream = response.GetResponseStream())
                     {
-                        max = num3;
-                    }
-                    else
-                    {
-                        max = num2;
+                        // Open the stream using a StreamReader for easy access.
+                        using (StreamReader reader = new StreamReader(dataStream))
+                        {
+                            // Read the content.
+                            string responseFromServer = reader.ReadToEnd();
+                            return responseFromServer;
+                        }
                     }
                 }
-                else
-                {
-                    if(max<num3) 
-                    {
-                        max = num3;
-                    }
-                }
-                int min = num1;
-                if (min >= num2)
-                {
-                    min = num2;
-                    if (min>=num3)
-                    {
-                        min = num3;
-                    }
-                }
-                else
-                {
-                    if (min >= num3)
-                    {
-                        min = num3;
-                    }
-                }
-                textBox4.Text = max.ToString();
-                textBox5.Text = min.ToString();
             }
-            catch (Exception a)
+            catch (Exception ex)
             {
-                MessageBox.Show("Vui lòng nhập số nguyên.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error fetching HTML: {ex.Message}");
+                return null;
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void DownloadButton_Click(object sender, EventArgs e)
         {
-            textBox1.ResetText();
-            textBox2.ResetText();
-            textBox3.ResetText();
-            textBox4.ResetText();
-            textBox5.ResetText();
+            string url = URLBox.Text;
+            DownloadFile(url);
+        }
+        private void DownloadFile(string url)
+        {
+            if (string.IsNullOrEmpty(url))
+            {
+                MessageBox.Show("URL is empty. Please provide a valid URL.");
+                return;
+            }
+
+            string location = DownloadBox.Text;
+            if (string.IsNullOrEmpty(location))
+            {
+                MessageBox.Show("Download location is empty. Please provide a valid location.");
+                return;
+            }
+
+            try
+            {
+                using (WebClient myClient = new WebClient())
+                {
+                    myClient.DownloadFile(url, location);
+                    MessageBox.Show("File downloaded successfully.");
+                }
+            }
+            catch (WebException webEx)
+            {
+                string errorMessage;
+                if (webEx.Status == WebExceptionStatus.ProtocolError && webEx.Response != null)
+                {
+                    var resp = (HttpWebResponse)webEx.Response;
+                    errorMessage = $"HTTP Error: {(int)resp.StatusCode} - {resp.StatusDescription}";
+                }
+                else if (webEx.Status == WebExceptionStatus.NameResolutionFailure)
+                {
+                    errorMessage = "Error: Unable to resolve the remote name. Check the URL and your internet connection.";
+                }
+                else
+                {
+                    errorMessage = $"WebException: {webEx.Message}";
+                }
+                MessageBox.Show(errorMessage);
+            }
+            catch (UnauthorizedAccessException)
+            {
+                MessageBox.Show("Error: You do not have permission to write to the specified location.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error downloading file: {ex.Message}");
+            }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void GetButton_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            url = URLBox.Text;
+            if (!url.StartsWith("http://") && !url.StartsWith("https://"))
+            {
+                url = "https://" + url;
+            }
+
+            try
+            {
+                string content = getHTML(url);
+                if (content != null)
+                {
+                    ContentBox.Text = content;
+                }
+                DownloadButton.Enabled = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Can't read the URL: {ex}");
+            }
         }
     }
 }

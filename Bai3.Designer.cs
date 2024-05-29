@@ -1,4 +1,4 @@
-﻿namespace NT106.O23_LAB1_22521103
+﻿namespace NT106.O23_LAB4
 {
     partial class Bai3
     {
@@ -28,121 +28,120 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            label3 = new Label();
-            textBox2 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
+            webView = new Microsoft.Web.WebView2.WinForms.WebView2();
+            Reloadbutton = new Button();
+            Loadbutton = new Button();
+            DownResbutton = new Button();
+            DownFilebutton = new Button();
+            addressBar = new TextBox();
+            progressBar = new ProgressBar();
+            ((System.ComponentModel.ISupportInitialize)webView).BeginInit();
             SuspendLayout();
             // 
-            // label1
+            // webView
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI Black", 20F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(2, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(395, 54);
-            label1.TabIndex = 0;
-            label1.Text = "Đọc Số Nguyên 0-9";
+            webView.AllowExternalDrop = true;
+            webView.CreationProperties = null;
+            webView.DefaultBackgroundColor = Color.White;
+            webView.Dock = DockStyle.Bottom;
+            webView.Location = new Point(0, 135);
+            webView.Margin = new Padding(5, 6, 5, 6);
+            webView.Name = "webView";
+            webView.Size = new Size(1327, 915);
+            webView.TabIndex = 0;
+            webView.ZoomFactor = 1D;
             // 
-            // label2
+            // Reloadbutton
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(34, 99);
-            label2.Name = "label2";
-            label2.Size = new Size(360, 32);
-            label2.TabIndex = 1;
-            label2.Text = "Nhập 1 số nguyên từ 0 đến 9: ";
+            Reloadbutton.Location = new Point(20, 79);
+            Reloadbutton.Margin = new Padding(5, 6, 5, 6);
+            Reloadbutton.Name = "Reloadbutton";
+            Reloadbutton.Size = new Size(125, 44);
+            Reloadbutton.TabIndex = 1;
+            Reloadbutton.Text = "Reload";
+            Reloadbutton.UseVisualStyleBackColor = true;
+            Reloadbutton.Click += Reloadbutton_Click;
             // 
-            // textBox1
+            // Loadbutton
             // 
-            textBox1.Location = new Point(400, 102);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 2;
-            textBox1.TextAlign = HorizontalAlignment.Center;
+            Loadbutton.Location = new Point(20, 23);
+            Loadbutton.Margin = new Padding(5, 6, 5, 6);
+            Loadbutton.Name = "Loadbutton";
+            Loadbutton.Size = new Size(125, 44);
+            Loadbutton.TabIndex = 2;
+            Loadbutton.Text = "Load";
+            Loadbutton.UseVisualStyleBackColor = true;
+            Loadbutton.Click += Loadbutton_Click;
             // 
-            // label3
+            // DownResbutton
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(255, 157);
-            label3.Name = "label3";
-            label3.Size = new Size(139, 32);
-            label3.TabIndex = 3;
-            label3.Text = "Nội Dung: ";
+            DownResbutton.Location = new Point(1127, 79);
+            DownResbutton.Margin = new Padding(5, 6, 5, 6);
+            DownResbutton.Name = "DownResbutton";
+            DownResbutton.Size = new Size(187, 44);
+            DownResbutton.TabIndex = 3;
+            DownResbutton.Text = "Down Resources";
+            DownResbutton.UseVisualStyleBackColor = true;
+            DownResbutton.Click += DownResbutton_Click;
             // 
-            // textBox2
+            // DownFilebutton
             // 
-            textBox2.Location = new Point(400, 160);
-            textBox2.Name = "textBox2";
-            textBox2.ReadOnly = true;
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 4;
-            textBox2.TextAlign = HorizontalAlignment.Center;
+            DownFilebutton.Location = new Point(1188, 23);
+            DownFilebutton.Margin = new Padding(5, 6, 5, 6);
+            DownFilebutton.Name = "DownFilebutton";
+            DownFilebutton.Size = new Size(125, 44);
+            DownFilebutton.TabIndex = 4;
+            DownFilebutton.Text = "Down Files";
+            DownFilebutton.UseVisualStyleBackColor = true;
+            DownFilebutton.Click += DownFilebutton_Click;
             // 
-            // button1
+            // addressBar
             // 
-            button1.Location = new Point(627, 79);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 5;
-            button1.Text = "Đọc";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            addressBar.BorderStyle = BorderStyle.FixedSingle;
+            addressBar.Location = new Point(155, 23);
+            addressBar.Margin = new Padding(5, 6, 5, 6);
+            addressBar.Name = "addressBar";
+            addressBar.Size = new Size(1022, 31);
+            addressBar.TabIndex = 5;
+            addressBar.Text = "https://uit.edu.vn/";
             // 
-            // button2
+            // progressBar
             // 
-            button2.Location = new Point(627, 136);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 6;
-            button2.Text = "Xóa";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            progressBar.Location = new Point(155, 79);
+            progressBar.Margin = new Padding(5, 6, 5, 6);
+            progressBar.Name = "progressBar";
+            progressBar.Size = new Size(827, 44);
+            progressBar.TabIndex = 6;
+            progressBar.Value = 50;
+            progressBar.Visible = false;
             // 
-            // button3
-            // 
-            button3.Location = new Point(627, 189);
-            button3.Name = "button3";
-            button3.Size = new Size(112, 34);
-            button3.TabIndex = 7;
-            button3.Text = "Thoát";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // Form4
+            // Bai3
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(765, 287);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(label3);
-            Controls.Add(textBox1);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Name = "Form4";
-            Text = "Lab1_Bài3";
+            ClientSize = new Size(1327, 1050);
+            Controls.Add(progressBar);
+            Controls.Add(addressBar);
+            Controls.Add(DownFilebutton);
+            Controls.Add(DownResbutton);
+            Controls.Add(Loadbutton);
+            Controls.Add(Reloadbutton);
+            Controls.Add(webView);
+            Margin = new Padding(5, 6, 5, 6);
+            Name = "Bai3";
+            Text = "Bai3";
+            ((System.ComponentModel.ISupportInitialize)webView).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
-        private Label label2;
-        private TextBox textBox1;
-        private Label label3;
-        private TextBox textBox2;
-        private Button button1;
-        private Button button2;
-        private Button button3;
+        private Microsoft.Web.WebView2.WinForms.WebView2 webView;
+        private System.Windows.Forms.Button Reloadbutton;
+        private System.Windows.Forms.Button Loadbutton;
+        private System.Windows.Forms.Button DownResbutton;
+        private System.Windows.Forms.Button DownFilebutton;
+        private System.Windows.Forms.TextBox addressBar;
+        private System.Windows.Forms.ProgressBar progressBar;
     }
 }

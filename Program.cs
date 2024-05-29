@@ -1,4 +1,4 @@
-namespace NT106.O23_LAB1_22521103
+namespace NT106.O23_LAB4
 {
     internal static class Program
     {
