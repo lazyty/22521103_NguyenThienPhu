@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nWPChm08ECkr76YUs64SlDywlJue7k3CDl+Rf7fez7XNstiiya2HM/qrIovmpKt/HDuTZnfhP49nm3U4lbQdXg==",
+  "success": true,
+  "projectFilePath": "D:\\22521103_NguyenThienPhu\\NT106.O23_LAB4_22521103_22521017\\NT106.O23_LAB4\\NT106.O23_LAB4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.web.webview2\\1.0.2535.41\\microsoft.web.webview2.1.0.2535.41.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
