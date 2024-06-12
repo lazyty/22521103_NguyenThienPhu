@@ -1,0 +1,111 @@
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.exe.config
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.exe
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.pdb
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\BouncyCastle.Cryptography.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Buffers.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Formats.Asn1.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Memory.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Numerics.Vectors.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.ValueTuple.dll
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\BouncyCastle.Cryptography.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.pdb
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.dll.config
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.pdb
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.dll.config
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Buffers.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Formats.Asn1.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Memory.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Numerics.Vectors.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.ValueTuple.xml
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.AssemblyReference.cache
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.IMAP.resources
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.POP.resources
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.Properties.Resources.resources
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.GenerateResource.cache
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.CoreCompileInputs.cache
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.Up2Date
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.exe
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.pdb
+D:\DownloadUIT\NT106\Thuchanh\Lab5\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.Bai2_3.resources
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.exe.config
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.exe
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.pdb
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Buffers.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Formats.Asn1.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Memory.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.ValueTuple.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.pdb
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.dll.config
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.pdb
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.dll.config
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Buffers.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Formats.Asn1.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Memory.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.ValueTuple.xml
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.AssemblyReference.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.Bai2_3.resources
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.IMAP.resources
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.POP.resources
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.Properties.Resources.resources
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.GenerateResource.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.CoreCompileInputs.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.Up2Date
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.exe
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.pdb
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.exe.config
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.exe
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\Bai2_3.pdb
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\BouncyCastle.Cryptography.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Buffers.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Formats.Asn1.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Memory.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Numerics.Vectors.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.ValueTuple.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\BouncyCastle.Cryptography.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.pdb
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MailKit.dll.config
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.pdb
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\MimeKit.dll.config
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Buffers.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Formats.Asn1.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Memory.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Numerics.Vectors.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\bin\Debug\System.ValueTuple.xml
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.AssemblyReference.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.Bai2_3.resources
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.IMAP.resources
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.POP.resources
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.Properties.Resources.resources
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.GenerateResource.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.CoreCompileInputs.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.csproj.Up2Date
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.exe
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai2_3\Bai2_3\Bai2_3\obj\Debug\Bai2_3.pdb
