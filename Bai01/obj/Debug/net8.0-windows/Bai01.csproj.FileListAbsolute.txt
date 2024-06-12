@@ -1,0 +1,44 @@
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.AssemblyReference.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.Form1.resources
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.GenerateResource.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.AssemblyInfoInputs.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.AssemblyInfo.cs
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.CoreCompileInputs.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.sourcelink.json
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\refint\Bai01.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.pdb
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.exe
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.deps.json
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.runtimeconfig.json
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.pdb
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\MailKit.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\bin\Debug\net8.0-windows\MimeKit.dll
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.Up2Date
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.genruntimeconfig.cache
+C:\Users\THIS PC\Desktop\22520672-22521101-22520555\LAB05\Bai01\obj\Debug\net8.0-windows\ref\Bai01.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.exe
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.deps.json
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.runtimeconfig.json
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\Bai01.pdb
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\MailKit.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\bin\Debug\net8.0-windows\MimeKit.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.AssemblyReference.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.Form1.resources
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.GenerateResource.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.GeneratedMSBuildEditorConfig.editorconfig
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.AssemblyInfoInputs.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.AssemblyInfo.cs
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.CoreCompileInputs.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.sourcelink.json
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.Up2Date
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\refint\Bai01.dll
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.pdb
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\Bai01.genruntimeconfig.cache
+D:\22521103_NguyenThienPhu\NT106.O23_LAB5_22521103_22521017\LAB05\Bai01\obj\Debug\net8.0-windows\ref\Bai01.dll
